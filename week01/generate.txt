@@ -1,0 +1,29 @@
+Dataset link: https://www.kaggle.com/datasets/tuannguyenvananh/vietnamese-plain-text-corpus/data
+(Em có bỏ 2 folder chính trị và pháp luật đi)
+
+Câu "Hôm nay trời đẹp lắm"
+log_dict["<s>"]["Hôm"] + log_dict["Hôm"]["nay"] + log_dict["nay"]["trời"] + log_dict["trời"]["đẹp"] + log_dict["đẹp"]["lắm"] + log_dict["lắm"]["."] + log_dict["."]["</s>"]
+Log probability of the sentence: -29.62200746122207
+Probability of the sentence: 1.3656066302805362e-13
+
+20: Câu được tạo ra (chỉ lấy top 5 từ mỗi lần)
+<s> - Chị có thể hiện đại diện của mình , tôi . </s> 
+<s> - Anh , nhưng tôi . </s> 
+<s> - Anh , có một người khác . </s> 
+<s> Theo ông , và những người dân gian , nhưng không có nhiều . </s> 
+<s> - Tôi không có thể làm cho rằng , nhưng cũng là một lần thứ ba năm nay , tôi không có thể hiện tượng . Tuy nhiên , các nước này , các nhà , tôi không được một trong đó , và các cầu thủ môn , tôi . </s> 
+<s> - một số tiền vệ của mình đã có thể hiện tại Việt Nam . </s> 
+<s> - Tôi đã được một trong khi đó , có thể làm cho biết , tôi cũng như một số người dân , các doanh nghiệp của các nước ngoài . Nhưng nếu có thể là một số 1 , nhưng vẫn là người dân chủ nhà , và có nhiều . </s> 
+<s> - Anh có thể , tôi đã được . </s> 
+<s> Theo một số người . </s> 
+<s> `` . </s> 
+<s> Theo ông nói với những lời nói với các cầu . </s> 
+<s> - một cách biệt , và có một số lượng . </s> 
+<s> - một lần này có thể thao . </s> 
+<s> `` Chúng tôi không có nhiều người ta có thể là một lần nữa . </s> 
+<s> - Tôi nghĩ sao ? ( Hà Nội , và các loại bỏ lỡ một lần này . Tôi đã không thể , các loại trừ khả năng , các loại , các loại thuốc lá cây số người dân tộc . </s> 
+<s> - một số lượng , có những người đàn ông Nguyễn Hữu Việt Nam , các loại trừ khi đó , có nhiều người khác . </s> 
+<s> `` Tôi cũng có thể hiện đại học , các nước . </s> 
+<s> - một lần này . </s> 
+<s> Trong khi đó . </s> 
+<s> - Tôi không được những người đàn ông đã được một cách để tìm thấy mình . </s> 

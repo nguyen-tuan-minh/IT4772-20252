@@ -38,7 +38,7 @@ def report_evaluation(true, predicted):
     accuracy = accuracy_score(true, predicted)
 
     # Calculate precision, recall, and F1 score
-    precision, recall, f1, _ = precision_recall_fscore_support(true, predicted, average='weighted', zero_division=0)
+    precision, recall, f1, _ = precision_recall_fscore_support(true, predicted, average='macro', zero_division=0)
     print(f'Accuracy: {accuracy:.4f}, Precision: {precision:.4f}, Recall: {recall:.4f}, F1 Score: {f1:.4f}')
 
 # NLTK default tag

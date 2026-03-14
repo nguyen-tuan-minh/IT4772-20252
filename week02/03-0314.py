@@ -74,7 +74,7 @@ def normalize_spacy_tag(tag):
     return SPACY_TO_BROWN.get(tag, tag)
 
 # Start predicting with spacy
-print("Start training spacy:")
+print("Start tagging with spacy:")
 for doc in nlp.pipe(docs, batch_size=n):
     predicted_tags_spacy.extend(normalize_spacy_tag(t.pos_) for t in doc)
     i += 1

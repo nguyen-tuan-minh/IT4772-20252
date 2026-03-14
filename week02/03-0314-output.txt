@@ -1,6 +1,6 @@
 NLTK pos tagger evaluation: 
 Accuracy: 0.9184, Precision: 0.9220, Recall: 0.9184, F1 Score: 0.9188
-Start training spacy:
+Start tagging with spacy:
 Finished tagging 20000/57340 sentences
 Finished tagging 40000/57340 sentences
 Finished tagging 57340/57340 sentences
